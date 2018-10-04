@@ -1,0 +1,43 @@
+body {
+	background-image: url(../img/fondo.jpg);
+	font-family: 'Open Sans Condensed', sans-serif;	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div ul a {
+	color: black;
+	font-size: 50px;
+}
+#sidebar { 
+	float: right; 
+	width: 500px; 
+	height: 645px;
+	background-image: url(../img/android.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+div{
+	border: 1px solid red;
+}
+div h1{
+	text-align: center;
+	background-repeat: no-repeat;
+}
+div h1 img {
+	height: 150px;
+}
+div nav {
+	font-size: 20px;
+	border: 1px solid red;
+	text-align: center;
+}
+div a {
+	color: white;
+}
+h2 {
+	color: white;
+}
+p {
+	color: white;
+}
+​
