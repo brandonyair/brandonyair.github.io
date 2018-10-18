@@ -1,0 +1,89 @@
+body {
+	background-color: #ffff;
+	font-family: Verdana, sans-serif;
+	font-size: 16px;
+}
+header div {
+	background-color: #77A8A6;
+	font-size: 36px;
+}
+#logo {
+	text-align: center
+}
+nav {
+	margin-left: 20px;
+	float: left;
+	margin-right: 16px;
+	margin-top: 10px;
+}
+h2 {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 500px;
+	color: #486175; 
+	font-size: 24px;
+}
+#contenido {
+	float: right;
+}
+#noticia1 {
+	margin-left: 500px;
+	float: right;
+	border: 1px solid black;
+}
+#noticia1 h2{
+	margin-left: 10px;
+}
+#noticia2 {
+	margin-bottom: 35px;
+	margin-top: 20px;
+	margin-left: 500px;
+	float: right;
+	border: 1px solid black;
+}
+#noticia2 h2 {
+	margin-left: 10px;
+	margin-bottom: 35px;
+}
+p {
+	margin-top: 20px;
+	font-size: 16px;
+	color: #0A060F;
+}
+#pie {
+	text-align: left
+}
+div a:hover { 
+	color: white; 
+	border-radius: 20px ;
+	background-color: #B1DBC3;
+}
+div a {
+	text-decoration: none;
+	color: #B1DBC3;
+	margin-top: 30px;
+}
+ul div li {
+	box-sizing; 
+	border-bottom: 1px solid  #B1DBC3;
+}
+
+#noticia1-1 {  
+	margin-left: 500px;
+	float: right;
+}
+#noticia1-1 h2{
+	margin-left: 10px;
+}
+footer {
+	padding: 10px;
+	margin-top: 40px;
+	color: white;
+	text-align: right;
+	clear: both;
+	padding: 5px;
+	background-color: #222442;
+}
+footer p {
+	color: white; 
+}
