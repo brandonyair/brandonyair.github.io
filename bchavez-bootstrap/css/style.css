@@ -1,0 +1,58 @@
+body {
+	font-family: Verdana, sans-serif;
+}
+p {
+	color: #655560;
+}
+h1 {
+	color: black;
+}
+h2 {
+	color: #A4969B;
+}
+.juego {
+	height: 300px;
+}
+header {
+	background-color: #A4969B;
+	text-align: center;
+}
+.imagen{
+	height: 40px;
+}
+.contenedor {
+	margin-right: 25em;
+}
+.pie {
+	height: 5em;
+	background-color: #A4969B;
+}
+#pie1{
+	margin-top: 25px;
+}
+.pc div p {
+	text-align: right;
+	color: white;
+}
+
+.cuadros {
+	margin-right: -7em;
+	float: right;
+	width: 500px;
+	height: 200px;
+	margin-right: 
+}
+.personaje {
+	border: 1px solid gray;
+}
+.cuadros2 {
+	margin-right: 100px;
+	background-color: #A4969B;
+	margin-top: 2em;
+	margin-left: 15px;
+	padding: 1em;
+}
+.wrapper {
+	margin-left: 50px;
+	margin-right: 50px;
+}
