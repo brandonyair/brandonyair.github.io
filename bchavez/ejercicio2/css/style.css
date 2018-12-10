@@ -1,0 +1,53 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+form {
+    /* Sólo para centrar el formulario a la página */
+    margin: 3em auto;
+    width: 800px;
+    /* Para ver el borde del formulario */
+    padding: 3em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    background-color: #BDCD6B;
+}
+label {
+    /* Para asegurarse que todos los labels tienen el mismo tamaño y están alineados correctamente */
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+input {
+    color: #030303;
+    /* Para darle el mismo tamaño a todos los campos de texto */
+    width: 300px;
+    /* Para armonizar el look&feel del borde en los campos de texto */
+    border: 1px solid #999;
+    background-color: #fff;
+}
+input:focus {
+    /* Para dar un pequeño destaque en elementos activos*/
+    margin-bottom: 1em;
+    border-color: #000;
+}
+button {
+    display:inline-block;
+    background-color: #F96207;
+    padding:0.5em 3em;
+    color: #fff;
+    border:0.16em solid #fff;
+    margin:2em 0 0 10em;
+}
+#resultado {
+    margin: 3em auto;
+    width: 800px;
+    padding: 1em 3em;
+    border: 1px solid #F96207;
+    background-color: #F96207;
+    text-align: center;
+    border-radius: 0.5em;
+}

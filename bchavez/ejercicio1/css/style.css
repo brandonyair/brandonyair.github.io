@@ -1,0 +1,50 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', sans-serif;
+    font-size: 16px;
+    color: antiquewhite;
+}
+.flex {
+    display: flex;
+    flex-direction: row;
+}
+header {
+    text-align: center;
+    padding: 1.5em;
+    background-color: #BDCD6B;
+    margin-bottom: 0.5em;
+}
+.verde {
+    background-color: #8B9849;
+    display: none;
+}   
+.rojo {
+    background-color: #F96207;
+    display: none;
+}
+.amarillo {
+    background-color:#E9D785;
+    display: none;
+}
+.boton {
+    display:inline-block;
+    padding:0.5em 3em;
+    color: #fff;
+    border:0.16em solid #fff;
+    margin:0 0.3em 0.3em 0;
+}
+nav span {
+    font-size: 1.25em;
+    color: #BDCD6B;
+    margin-right: 1em;
+}
+a {
+    font-size: 1.25em;
+    text-decoration: none;
+}
+article {
+    flex: 1;
+    width: 300px;
+    height: 300px;
+    padding: 1em 2em;
+    margin: 1em;
+}
