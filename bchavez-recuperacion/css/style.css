@@ -1,0 +1,119 @@
+body {
+	font-size: 16px;
+	background-color: #FFF;
+	font-family: Verdana, sans-serif;
+}
+.grande {
+	background-color: #ffeead;
+}
+.cabecera {
+	background-color: white;
+}
+.imagen {
+	height: 70px;
+	text-align: center;
+	margin-left: 2em;
+	margin-bottom: 10px;
+}
+.menu {
+	background-color: #D9534F;
+	height: 1.5em;
+	margin-top: 10px;
+	padding: 0.75em;
+}
+ul li a {
+	border-radius: 1px;
+	background-color: white;
+	color: #d9534f;
+	text-decoration: none;
+	margin-right: 10px;
+
+}
+.noticias{
+	margin-top: 3em;
+	float: left;
+}
+.cajas {
+	border: 1px solid #FFAD60;
+	padding: 2em;
+	width: 47em;
+	margin-left: 3em;
+}
+.contenedor {
+	float: right;
+	width: 20em;
+}
+.cajitas {
+	background-color: #96CEB4;
+	padding: 2em;
+	border: 10px solid white; 
+	text-align: center;
+	color: white;
+}
+.texto {
+	color: #5bc0de;
+	margin-top: 1em;
+}
+.burger {
+	height:50px;
+	text-align: center;
+}
+h1 {
+	font-size: 48px;
+	margin-top: 0.5em;
+	color: #D9534F;
+	margin-left: 1em;
+}
+h2 {
+	font-size: 32px;
+	color: #FFAD60;
+}
+h3 {
+	font-size: 24px;
+	color: #FFAD60;
+}
+.cf {
+	background-color: white;
+	margin-right: 3em;
+	margin-left: 3em;
+}
+.cf:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.cf { display: inline-block; }
+/* start commented backslash hack \*/
+* html .cf { height: 1%; }
+.cf { display: block; }
+/* close commented backslash hack */
+footer {
+	background-color: #d9534f;
+	height: 5em;
+	text-align: left;
+	padding: 1em;
+}
+footer p {
+	color: white;
+	margin-top: 2em; 
+	font-size: 12px;
+}
+.pie{
+	margin-left: 3em;
+	margin-right: 3em;
+}
+.notis {
+	font-size: 24px;
+	text-align: left;
+}
+.noti {
+	margin-top: 2em;
+	margin-left: 2em;
+}
+.noti p {
+	margin-top: 2em;
+	color: #5bc0de;
+}
