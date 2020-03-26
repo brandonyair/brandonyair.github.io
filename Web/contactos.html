@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <script src="./js/jquery.js"></script>
+    <script src="./js/login.js"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="./js/formulario.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <title>Contacto</title>
+</head>
+
+<body>
+
+    <div class="nav">
+        <div class="menu"><a href="./index.html"><img class="ico_rana" src="./icons/rana.png" alt=""></a></div>
+        <div class="menu"><a class="etiqueta" href="./productos.html">Productos</a></div>
+        <div class="menu"><a class="etiqueta" href="./servicios.html">Servicios</a></div>
+        <div class="menu"><a class="etiqueta" href="./instalaciones.html">Instalaciones</a></div>
+        <div class="menu"><a class="etiqueta" href="./quienes_somos.html">¿Quiénes somos?</a></div>
+        <div class="menu"><a class="etiqueta" href="./contactos.html">Contacto</a></div>
+        <div class="menu"><a href=""><img class="ico_carrito" src="./icons/carrito.png" alt=""></a></div>
+        <div class="menu">
+          <div class="acceder"><a href="#" id="login"><img class="ico_perfil" src="./icons/perfil.png" alt=""></a>
+            <div id="login-content">
+              <form method="post">
+                <input type="text" name="usuario" id="usuario" placeholder="Usuario">
+                <input type="password" name="contraseña" id="pass" placeholder="contraseña">
+                <input type="submit" name="btVerificar" id="btVerificar" value="Login">
+                <label class="lab"><input type="checkbox" checked="checked">Recuerdame</label>
+              </form>
+            </div>
+          </div> 
+        </div>  
+    </div>
+    
+    <div class="fondo">
+        <form method="post" action="mailto:raul.rodriguez@universidadeuropea.es" onsubmit="return validar();">
+            <div class="contenedor-formulario">
+                <div class="formulario">
+                    <h1>Formulario de contacto</h1>
+                    <div class="inputIconos inputBG">
+                        <input type="text" id="usuarioform" autocomplete="off" placeholder="usuario">
+                        <i class="fas fa-user" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="inputIconos inputBG">
+                        <input type="text" id="email" autocomplete="off" placeholder="email">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="inputIconos inputBG">
+                        <input type="tel" id="telefono" autocomplete="off" placeholder="teléfono">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                    </div>
+
+                    <div class="checkbox">
+                        <legend class="titulo-asunto">Asunto en cuestión</legend>
+                        <br><input type="checkbox" name="checkbox " id="consultoria">
+                        <label for="consultoria">Consultoría</label>
+                        <input type="checkbox" name="checkbox2 " id="Desarrollo de Proyectos">
+                        <label for="Desarrollo de Proyectos">Desarrollo de Proyectos</label>
+                        <input type="checkbox" name="checkbox3 " id="Realización de Pedidos">
+                        <label for="Realización de Pedidos">Realización de Pedidos</label>
+                        <input type="checkbox" name="checkbox4 " id="Otros">
+                        <label for="Otros">Otros</label>
+                    </div>
+                    <br>
+                    <div class="mensaje">
+                        <textarea name="texto" cols="40" rows="5"></textarea>
+                        <label>Mensaje</label>
+                    </div>
+                    <br>
+                    <input type="submit" class="boton-enviar" value="Enviar">
+                </div>
+            </div>
+        </form>
+        
+        <div class="ubicacion">
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.614984121326!2d-3.921271484909234!3d40.37306067937017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd419031a94d45e5%3A0x375a8b6ca7a1dc4c!2sUniversidad%20Europea%20de%20Madrid%20(Campus%20Villaviciosa%20de%20Od%C3%B3n)!5e0!3m2!1ses!2ses!4v1581263976245!5m2!1ses!2ses" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+            <br>
+            <div class="contacto">
+                <div class="logo-contacto">
+                    <img src="./img/Contact-us.png">
+                </div>
+                <div class="texto">
+                    <ul>
+                        <li>Universidad Europea de Madrid, Villaviciosa de Odón</li>
+                        <li>Calle Tajo S/N Villaviciosa de Odón.</li>
+                        <li>91 211 56 73</li>
+                        <li>xxxxxx@xxxxxxxx</li>
+                    </ul>
+                </div>
+            </div>
+        </div>   
+    </div>
+    
+    <footer>
+        <div class="cajas">
+            <h3>POR QUÉ COMPRAR</h3>
+            <p><a href="">Cómo comprar</a></p>
+            <p><a href="">Formas de pago</a></p>
+            <p><a href="">Gastos de envío</a></p>
+            <p><a href="">Cupones de descuento</a></p>
+        </div>
+        <div class="cajas">
+            <h3>QUIÉNES SOMOS</h3>
+            <p><a href="">Nuestra tienda</a></p>
+            <p><a href="">Fabricantes</a></p>
+            <p><a href="">Aliados</a></p>
+            <p><a href="">Privacidad</a></p>
+        </div>
+        <div class="cajas">
+            <h3>QUIÉNES SOMOS</h3>
+            <p><a href="">Centro de soporte</a></p>
+            <p><a href="">Contacto</a></p>
+            <p><a href="">Devoluciones</a></p>
+            <p><a href="">Garantía</a></p>
+        </div>
+        <div class="cajas social">
+            <a href="https://www.facebook.com/"><img class="social_ico" src="./icons/facebook.png" alt=""></a>
+            <a href="https://twitter.com/?lang=es"><img class="social_ico" src="./icons/twitter.png" alt=""></a>
+            <a href="https://www.instagram.com/?hl=es"><img class="social_ico" src="./icons/instagram.png" alt=""></a>
+            <br>
+            <br>
+            <br><p style="margin-left: 3em;">Universidad Europea</p>
+            <p style="margin-left: 2.5em;">Mr.Frogger © 03/2020</p>
+        </div>
+       
+    </footer>
+    
+</body>
+
+</html>
